@@ -1,7 +1,5 @@
 package evaluacio1.UD02.UD02_02;
 
-import java.util.Scanner;
-
 /**
  * <h1>UD2: Introducción a Java</h1>
  * <h2>Problemas Básicos de Programación</h2>
@@ -30,9 +28,8 @@ import java.util.Scanner;
 public class ejer04 {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
-        int x = sc.nextInt();
+        int x = 4;
         System.out.println("Tabla de multiplicar de " + x + "\n");
 
         for (int i = 1; i <= 10; i++) {

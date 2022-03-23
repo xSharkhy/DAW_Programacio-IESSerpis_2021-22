@@ -7,7 +7,7 @@ import java.util.Scanner;
  * <h2>Problemas Básicos de Programación</h2>
  * <h4>EJERCICIO 10</h4>
  * <a href="https://github.com/xSharkhy">Link a mi GitHub</a><br><br>
- *
+ * <p>
  * Escribe un programa en Java que utilice el valor de 2 variables enteras que contendrán el número de
  * niños y de niñas matriculados en un colegio.<br>
  * Se encargará de imprimir el porcentaje de niños y de niñas matriculados en el curso de la forma:
@@ -23,12 +23,10 @@ import java.util.Scanner;
 public class ejer10 {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
-        System.out.print("El número de niños matriculados es: ");
-        int a = sc.nextInt();
-        System.out.print("El número de niñas matriculados es: ");
-        int b = sc.nextInt();
+        int a = 121, b = 122;
+        System.out.print("El número de niños matriculados es: " + a);
+        System.out.print("El número de niñas matriculados es: " + b);
         int total = a + b;
         float pa = (float) a * 100 / total;
         float pb = (float) b * 100 / total;

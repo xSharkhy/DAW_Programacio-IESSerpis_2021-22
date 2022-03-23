@@ -23,10 +23,9 @@ import java.util.Scanner;
 public class ejer09 {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
-        System.out.print("Dime tu edad!: ");
-        int e = sc.nextInt();
+        int e = 20;
+        System.out.print("Tu edad: " + e);
         e = 1492 / e;
         e -= 21;
         e *= e;

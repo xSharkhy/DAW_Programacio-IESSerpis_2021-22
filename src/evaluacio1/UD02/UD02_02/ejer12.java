@@ -26,18 +26,16 @@ public class ejer12 {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-
         System.out.print("Votos PODEMOS: ");
-        int vPodemos = sc.nextInt();
+        int vPodemos = 5;
         System.out.print("Votos PSOE: ");
-        int vPsoe = sc.nextInt();
+        int vPsoe = 4;
         System.out.print("Votos PP: ");
-        int vPP = sc.nextInt();
+        int vPP = 3;
         System.out.print("Votos CIUDADANOS: ");
-        int vCiudadanos = sc.nextInt();
+        int vCiudadanos = 2;
         System.out.print("Votos VOX: ");
-        int vVox = sc.nextInt();
+        int vVox = 1;
 
         int gIzquierda = vPodemos + vPsoe;
         int gDerecha = vPP + vCiudadanos + vVox;

@@ -29,27 +29,15 @@ import java.util.Scanner;
 public class ejer03 {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
-        System.out.println("Introduce el NIF:");
-        String nif = sc.nextLine();
-        System.out.println("Introduce el nombre completo:");
-        String nombre = sc.nextLine();
-        System.out.println("Introduce la fecha de nacimiento (DD/MM/AAAA):");
-        String fechaNacimiento = sc.nextLine();
-        System.out.println("Introduce la dirección:");
-        String direccion = sc.nextLine();
-        System.out.println("Introduce el código postal:");
-        int codigoPostal = sc.nextInt();
-        sc.nextLine();
-        System.out.println("Introduce la población:");
-        String poblacion = sc.nextLine();
-        System.out.println("Introduce el teléfono fijo:");
-        int telFijo = sc.nextInt();
-        sc.nextLine();
-        System.out.println("Introduce el teléfono móvil:");
-        int telMovil = sc.nextInt();
-        sc.nextLine();
+        String nif = "49872415B";
+        String nombre = "Perico Fernández";
+        String fechaNacimiento = "19/09/2000";
+        String direccion = "Calle de la golosina 2, Piruleta";
+        int codigoPostal = 54123;
+        String poblacion = "Albacete";
+        int telFijo = 912345678;
+        int telMovil = 678912345;
 
         System.out.printf("El alumno %s de NIF %s, nació el %s y reside actualmente en%n%s, %d, %s. Sus teléfonos de contactos son: %d y %d%n",
                 nombre, nif, fechaNacimiento, direccion, codigoPostal, poblacion, telFijo, telMovil);

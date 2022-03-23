@@ -24,12 +24,9 @@ public class ejer14 {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Variable A: ");
-        int a = sc.nextInt();
-        System.out.print("Variable B: ");
-        int b = sc.nextInt();
+        int a = 3, b = 5;
+        System.out.print("Variable A: " + a);
+        System.out.print("Variable B: " + b);
 
         float resultado;
         System.out.println("Vamos a utilizar las variables " + a + " y " + b + ":");

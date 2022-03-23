@@ -26,10 +26,8 @@ public class ejer15 {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Importe de tu producto: ");
-        float x = sc.nextFloat();
+        float x = 121F;
+        System.out.print("Importe de tu producto: " + x);
         float resultado;
         System.out.println("El importe de tu producto es de " + x + " euros.");
         resultado = x / 1.21F;

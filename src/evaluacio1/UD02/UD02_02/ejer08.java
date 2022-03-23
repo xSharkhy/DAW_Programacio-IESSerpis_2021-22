@@ -26,13 +26,12 @@ import java.util.Scanner;
 public class ejer08 {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
         System.out.println("Bienvenido a mi calculadora.");
-        System.out.print("El valor de 'a' es: ");
-        int a = sc.nextInt();
-        System.out.print("El valor de 'b' es: ");
-        int b = sc.nextInt();
+
+        int a = 5, b = 4;
+        System.out.print("El valor de 'a' es: " + a);
+        System.out.print("El valor de 'b' es: " + b);
         System.out.println("a + b = " + (a + b));
         System.out.println("a - b = " + (a - b));
         System.out.println("a * b = " + (a * b));

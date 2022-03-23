@@ -22,12 +22,11 @@ import java.util.Scanner;
 public class ejer11 {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
-        System.out.print("Introduce tu peso en gramos: ");
-        float peso = sc.nextInt() / 1000F;
-        System.out.print("Introduce tu altura en centímetros: ");
-        float altura = sc.nextInt() / 100F;
+        float peso = 85 / 1000F;
+        System.out.print("Tu peso en gramos: " + peso);
+        float altura = 185 / 100F;
+        System.out.print("Introduce tu altura en centímetros: " + altura);
         int imc = (int) (peso / Math.pow(altura, 2));
         System.out.println("El IMC calculado es " + imc);
     }

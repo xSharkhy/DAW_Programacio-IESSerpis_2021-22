@@ -7,7 +7,7 @@ import java.util.Scanner;
  * <h2>Problemas Básicos de Programación</h2>
  * <h4>EJERCICIO 7</h4>
  * <a href="https://github.com/xSharkhy">Link a mi GitHub</a><br><br><br>
- *
+ * <p>
  * Escribe un programa en Java que utilice 2 variables numéricas de modo que imprimirá:<br>
  * “Al principio del programa, el valor de a es “< a >” y el valor de b es “< b >.<br>
  * Luego, intercambiará las 2 variables e imprimirá:<br>
@@ -21,11 +21,10 @@ import java.util.Scanner;
 public class ejer07 {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Variable A: ");
-        int a = sc.nextInt();
-        System.out.print("Variable B: ");
-        int b = sc.nextInt();
+
+        int a = 3, b = 5;
+        System.out.print("Variable A: " + a);
+        System.out.print("Variable B: " + b);
 
         System.out.println("Al principio del programa, el valor de a es " + a + " y el valor de b es " + b);
         int aux = a;
